@@ -15,7 +15,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.*;
 
 class Setup extends JFrame{
@@ -23,6 +22,7 @@ class Setup extends JFrame{
 	JPanel panel = new JPanel();
 	JButton[] numbers = new JButton[10];
 	NumAction[] numActions = new NumAction[10];
+	
 	JButton mult = new JButton("x");
 	JButton div = new JButton("/");
 	JButton dec = new JButton(".");
